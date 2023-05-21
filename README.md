@@ -5,26 +5,27 @@
 The Bangalore Housing Price Prediction project aims to predict the housing prices in Bangalore for a given locality using machine learning techniques. The project involves data analysis, feature engineering, model training, and evaluation.
 
 ## Project Structure
-bash '''
 The project directory is structured as follows:
-project/
-├── data/
-│   ├── raw_data/
-│   └── processed_data/
-├── notebooks/
-│   ├── Data_Analysis.ipynb
-│   ├── Feature_Engineering.ipynb
-│   └── model_training.ipynb
-├── scripts/
-├── reports/
-│   ├── report.md
-│   └── visualizations/
-│       ├── 2_3_BHK_plot.png
-│       ├── No_Bathroom_plot.png
-│       ├── Per_SQ_Feet_plot.png
-│       └── y_test-pred_plot.png
-└── README.md
-'''
+$ ./tree-md .
+# Project tree
+.
+ * [data](./data)
+   * [raw_data](./data/raw_data)
+   * [processed_data](./data/processed_data)
+ * [notebooks](./notebooks)
+   * [Data_Analysis.ipynb](./notebooks/Data_Analysis.ipynb)
+   * [Feature_Engineering.ipynb](./notebooks/Feature_Engineering.ipynb)
+   * [model_training.ipynb](./notebooks/model_training.ipynb)
+ * [scripts](./scripts)
+ * [reports](./reports)
+   * [report.md](./reports/report.md)
+   * [visualizations](./reports/visualizations)
+     * [2_3_BHK_plot.png](./reports/visualizations/2_3_BHK_plot.png)
+     * [No_Bathroom_plot.png](./reports/visualizations/No_Bathroom_plot.png)
+     * [Per_SQ_Feet_plot.png](./reports/visualizations/Per_SQ_Feet_plot.png)
+     * [y_test-pred_plot.png](./reports/visualizations/y_test-pred_plot.png)
+ * [README.md](./README.md)
+
 - The `data/` directory contains the raw data and processed data subdirectories, where you can store the respective data files.
 - The `notebooks/` directory contains Jupyter notebooks for data analysis, feature engineering, and model training.
 - The `scripts/` directory can be used to store any additional scripts or code files.
