@@ -5,7 +5,7 @@
 The Bangalore Housing Price Prediction project aims to predict the housing prices in Bangalore for a given locality using machine learning techniques. The project involves data analysis, feature engineering, model training, and evaluation.
 
 ## Project Structure
-
+bash '''
 The project directory is structured as follows:
 project/
 ├── data/
@@ -24,7 +24,7 @@ project/
 │       ├── Per_SQ_Feet_plot.png
 │       └── y_test-pred_plot.png
 └── README.md
-
+'''
 - The `data/` directory contains the raw data and processed data subdirectories, where you can store the respective data files.
 - The `notebooks/` directory contains Jupyter notebooks for data analysis, feature engineering, and model training.
 - The `scripts/` directory can be used to store any additional scripts or code files.
