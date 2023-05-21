@@ -37,7 +37,7 @@ Examine locations which is a categorical variable. We need to apply dimensionali
 ### Outlier Removal Using Bathrooms Feature
 
 It is unusual to have 2 more bathrooms than the number of bedrooms in a home.
-![image description](reports/visualization/No_Bathroom_plot.png)
+![plot](reports/visualization/No_Bathroom_plot.png)
 
 
 ### Use One Hot Encoding For Location
