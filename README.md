@@ -6,8 +6,6 @@ The Bangalore Housing Price Prediction project aims to predict the housing price
 
 ## Project Structure
 The project directory is structured as follows:
-
-$ ./tree-md .
 .
  * [data](./data)
    * [raw_data](./data/raw_data)
