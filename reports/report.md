@@ -38,6 +38,7 @@ Examine locations which is a categorical variable. We need to apply dimensionali
 
 It is unusual to have 2 more bathrooms than the number of bedrooms in a home.
 ![plot](reports/visualization/No_Bathroom_plot.png)
+![No_Bathroom_plot](https://github.com/pras-ops/Bangalore-House-Price-Prediction-/assets/56476064/e83845bd-9a60-433b-aceb-ddd58a485ed2)
 
 
 ### Use One Hot Encoding For Location
