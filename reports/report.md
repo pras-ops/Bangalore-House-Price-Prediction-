@@ -24,6 +24,7 @@ Let us create a Machine Learning Model which will help us in predicting the pric
 
 - Add new feature(integer) for bhk (Bedrooms Hall Kitchen)
 - Add new feature called price per square feet
+![2_3_BHK_plot](https://github.com/pras-ops/Bangalore-House-Price-Prediction-/assets/56476064/8761a13e-e5be-4085-9245-8ee436f99481)
 
 ### Dimensionality Reduction
 
@@ -33,11 +34,11 @@ Examine locations which is a categorical variable. We need to apply dimensionali
 
 - Normally square ft per bedroom is 300 (i.e., 2 bhk apartment is minimum 600 sqft). If a 400 sqft apartment has 2 bhk, then that seems suspicious and can be removed as an outlier. We will remove such outliers by keeping our minimum threshold per bhk to be 300 sqft.
 - Remove outliers per location using mean and one standard deviation.
+![Per_SQ_Feet_plot](https://github.com/pras-ops/Bangalore-House-Price-Prediction-/assets/56476064/1eb80c35-f990-49cc-b369-8831cbc8b098)
 
 ### Outlier Removal Using Bathrooms Feature
 
 It is unusual to have 2 more bathrooms than the number of bedrooms in a home.
-![plot](reports/visualization/No_Bathroom_plot.png)
 ![No_Bathroom_plot](https://github.com/pras-ops/Bangalore-House-Price-Prediction-/assets/56476064/e83845bd-9a60-433b-aceb-ddd58a485ed2)
 
 
